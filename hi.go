@@ -1,7 +1,5 @@
-package main
+package repo
 
-import "fmt"
-
-func main() {
-	fmt.Println("Hi")
+func SayHi() string{
+	return string("hello from Githuib")
 }
